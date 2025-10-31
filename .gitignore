@@ -1,0 +1,45 @@
+# ==============================
+# PHP Project .gitignore
+# ==============================
+
+# Ignore konfigurasi database (berisi kredensial sensitif)
+config/database.php
+
+# Ignore folder upload atau asset berat
+assets/img/
+assets/uploads/
+assets/tmp/
+
+# Ignore file log dan cache
+*.log
+*.tmp
+cache/
+tmp/
+sessions/
+
+# Ignore file sistem lokal
+.DS_Store
+Thumbs.db
+
+# Ignore folder IDE/editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore dependency composer (jika nanti digunakan)
+vendor/
+
+# Ignore file environment
+.env
+.env.local
+.env.development
+.env.production
+
+# Ignore backup dan zip
+*.bak
+*.zip
+*.rar
+
+# Ignore folder node (kalau nanti proyek lebih besar)
+node_modules/
